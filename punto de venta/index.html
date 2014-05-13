@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+	   <meta charset="UTF-8">
+	   <meta name="viewport" content="width=device-width, initial-scale=1">
+	  	       <title>punto_de_venta</title>
+       <!-- CSS de jquery ui  --> 
+   	   <link href="jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+       <!-- CSS de layout -->      
+	   <link rel="styleSheet" media="screen" href="style.css"  type="text/css">
+	   <!-- CSS de Bootstrap -->
+	   <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	   <script src="jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+	   <script src="jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>            
+                <script>
+                   $(function() {
+                   $( "#tabs" ).tabs({
+                   collapsible: true
+                   });
+                   });
+                </script>
+				<script>
+				$(document).ready(function(){
+				  $("#button").click(function(){
+					$("#div1").fadeToggle("slow");
+					
+				  });
+				});
+				</script>			
+     </head>
+     <body>
+	   <div class="contenedor">         
+            <div id="bmenu">	      
+                <input id="button" value="Menu" class="btn btn-default" >
+			        <div id="div1"> 
+						<div class="button1">
+							<input type="button" value="Nuevo" class="btn btn-primary btn-lg btn-block">
+						</div>
+						<div class="submenu">
+							<h4>No. Factura</h4>
+								<div class="buscar">
+									<div class="input-group">
+									  <input type="text" class="form-control">
+									</div>
+								</div>
+								<div class="button2">
+									<input type="button" value="Eliminar" class="btn btn-primary btn-lg btn-block">
+								</div>
+								<div class="button3">
+									<input type="button" value="Editar" class="btn btn-primary btn-lg btn-block">
+								</div>
+								<div class="button4">
+									<input type="button" value="Buscar" class="btn btn-primary btn-lg btn-block">
+								</div>
+						</div>
+					</div>
+			</div>
+            <div class="facturacion">        
+				<div class="descripcion">
+				    <table border>
+			            <tr> 
+							<td height="10%">Item 1</td>
+						</tr>
+						<tr> 
+						    <td height="10%">Item 1</td> 
+						</tr>
+						<tr> 
+						    <td height="10%">Item 1</td> 
+						</tr>
+						<tr> 
+						    <td height="10%">Item 1</td> 
+						</tr>
+						<tr> 
+						    <td height="10%">Item 1</td> 
+						</tr>
+						<tr>
+						   <td height="10%">Item 2</td> 
+					   </tr>
+					</table>
+					    <div id="codigo">
+							<h4>Codigo:</h4>
+								<div class="buscarcod">
+									<div class="input-group">
+									  <input type="text" class="form-control">
+									</div>
+								</div>
+								<h4>Total:</h4>
+								<div class="total">
+									<div class="input-group">
+									  <input type="text" class="form-control">
+									</div>
+								</div>
+						</div>
+				</div>	
+				<div class="botones"> 
+					<div class="button5">
+						<input type="button" value="% Descuento" class="btn btn-primary btn-lg btn-block">
+					</div>
+					<div class="button6">
+						<input type="button" value="Facturar" class="btn btn-primary btn-lg btn-block">
+					</div>
+				</div> 
+	       </div>     
+           <div id="categoria">      
+	            <div id="tabs">
+                    <ul>
+                        <li><a href="#tabs-1">productos</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <table border>
+			                <tr> 
+							    <td height="20%">
+								<div class="submenu1">
+									<div class="buscar2">
+										<h4 class="categorias">Categorias:</h4>
+										<div id="seleccion">
+										<select class="form-control input-sm">
+										<option value="" selected="selected">- seleccionar -</option>
+											  <option value="windows">Ejemplo1</option>
+											  <option value="mac">Ejemplo2</option>
+											  <option value="linux">Ejemplo3</option>
+											  <option value="otro">Ejemplo4</option>
+											</select>
+									    </div>
+									</div>
+									<div class="button8">
+										<input type="button" value="Buscar" class="btn btn-primary btn-lg btn-block">
+									</div>
+									<div class="buscar1">
+										<div class="input-group">
+											<input type="text" class="form-control">
+										</div>
+									</div>
+									<div class="button7">
+										<label>Buscar:</label>
+									</div>
+								</div>
+								</td> 
+							</tr>
+							<tr>
+								<td height="50%">
+									<div class="row">
+										<div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+											<img src="audifonos.jpg" alt="...">
+											</a>
+										</div>
+   									    <div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+											<img src="audifonos.jpg" alt="...">
+											</a>
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+											<img src="audifonos.jpg" alt="...">
+											</a>
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+											<img src="audifonos.jpg" alt="...">
+											</a>
+										</div>
+										<div class="col-xs-6 col-md-3">
+											<a href="#" class="thumbnail">
+											<img src="audifonos.jpg" alt="...">
+											</a>
+										</div>
+								    </div>
+								</td> 
+							</tr>
+						</table>
+                    </div>
+                </div>
+           </div>
+        </div>                         
+	</body>
+</html>

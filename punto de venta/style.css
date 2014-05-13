@@ -1,0 +1,176 @@
+@media only screen and (max-width: 30em){
+body{
+ background:#ff0000;
+ }
+ }
+@media only screen and (min-width: 30em) and (max-width: 48em){
+body{
+ background:#00ff00;
+ }
+ }
+@media only screen and (min-width: 48em){
+body{
+ background:#000000;
+ }
+ }
+html, body{
+   width:0 auto;
+   height:100%
+   }
+.contenedor{
+    width:100%;
+	height:75%;
+	background:#ffffff;
+	}
+#bmenu{
+       position:relative;
+       width:75%;
+       }
+#div1{
+    width:100%;
+	height:80px;
+	display:none;
+	border-radius:15px;
+	background-color:rgba(236, 0, 0, 0.7);;
+	margin-bottom:.5em;
+	}
+.button1{
+        float:left;
+        width:20%;
+		height:50%;
+	    padding:1em;
+		font-size:1em;
+		}
+.submenu{
+		position:relative;
+		float:right;
+		width:80%;
+		padding:1em;
+		}
+h4 { 
+       max-width:20%;
+	   float:left;
+	   padding-left:7%
+	   }
+.buscar{
+       width:20%;
+	   float:left;
+	   padding-top:1%;
+	   padding-left:1%;
+	   margin: 0 auto;
+	   }
+.button2{
+        float:right;
+        width:20%;
+		padding-left:1%;
+		}
+.button3{
+        float:right;
+       	width:20%;
+	    padding-left:1%;
+		}
+.button4{
+        float:right;
+        width:20%;
+	    padding-left:1%;
+		}
+.facturacion{
+        width:100%;
+	    height:75%;
+	    background:#ffffff;
+        }
+.descripcion{
+        float:left;
+        width:75%;
+	    height:100%;
+	    background:#ffffff;
+        }
+.botones{
+        position:relative;
+        float:right;
+        width:25%;
+	    height:100%;
+     	background:#ffffff;
+	   }
+.button5{
+        width:90%;
+		height:50%;
+	    padding:2em;
+		margin: 0 auto;
+		}
+.button6{
+        width:90%;
+		height:50%;
+	    padding:2em;
+		margin: 0 auto;
+		}
+#categoria{
+        position:relative;
+        width:75%;
+        }
+table{
+     width:100%;
+	 height:80%;
+	 background-color:#ffffff;
+	}
+td{
+    background-color:#ffffff;
+   }
+#codigo{
+       width:100%;
+	   height:20%;
+	   }
+.buscarcod{
+       width:20%;
+	   float:left;
+	   padding-top:.5%;
+	   padding-left:1%;
+	   margin-bottom:1%;
+	   }
+.total{
+       width:20%;
+	   float:left;
+	   padding-top:.5%;
+	   padding-left:1%;
+	   margin-bottom:1%;
+	   }
+.submenu1{
+		position:relative;
+		float:none;
+		width:100%;
+		height:30%
+		padding:1em;
+		}
+.buscar1{
+       width:20%;
+	   float:right;
+	   padding-top:.5%;
+	   margin-bottom:1%;
+	   }
+.categorias{
+            width:20%;
+			font-size:1.2em;	
+			padding-bottom:1%;
+			}
+#seleccion{
+       width:20%;
+	   float:left;
+	   padding-top:.5%;
+		}
+label{
+        float:left;
+       	width:20%;
+		padding-top:4%;
+	    padding-left:30%;
+		font-size:1.5em;
+		}	
+.button7{
+        float:right;
+       	width:20%;
+	    padding-left:0;
+		}
+.button8{
+        float:right;
+        width:20%;
+		padding-top:.2%;
+		}
